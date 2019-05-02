@@ -1,0 +1,98 @@
+body{
+    background: #360033;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/*.navbar-toggler-icon{
+   background-color: white !important;
+}*/
+.navbar-nav .nav-item .active{
+    background-color: orangered;
+    width: 120px;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.navbar-brand, .nav-link{
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+.nav-link:hover{
+    background-color: orangered;
+    width: 120px;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.heading{
+    margin-top: 50%;
+}
+
+.ml-5{
+    margin-right: 30% !important;
+}
+.mr-7{
+    margin-right: 10% !important;
+}
+.ml-auto{
+    margin-right: 5%;
+}
+#wildlife{
+    margin-top: 40%;
+    background: url(../img/wildlife2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 70%;
+}
+.btn-orange{
+    background-color: transparent !important;
+    color: orangered;
+    border-radius: 50px;
+    border: 1px solid orangered;
+    text-align: center;
+    width: 150px;
+}
+
+.btn-orange:hover{
+    color: white;
+    background-color: orangered !important;
+}
+
+.btn-transparent{
+    background-color: transparent;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    width: 150px;
+    border: 1px solid white;
+}
+
+.btn-transparent:hover{
+    color: black;
+    background-color: white;
+}
+.icon-background{
+    color: rgba(71, 70, 70, 0.459);
+}
+.icon{
+    color: rgba(214, 207, 207, 0.308);
+}
+.navicon-color{
+    color: orangered;
+}
+.nav
+
+/* .custom-toggler.navbar-toggler {
+    border-color: orangered !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='orangered' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  } */
