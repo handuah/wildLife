@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RHINO | Website</title>
+	<link rel="shortcut icon" href="rhino4.ico">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/wildlife.css">
+	<script type="text/javascript" src="js/fontawesome-all.js"></script>
+</head>
+<body id="home" data-spy="scroll" data-target="#main-nav">
+
+	<!-- NAVBAR -->
+	<nav id="main-nav" class="navbar navbar-expand-lg bg-transparent fixed-top py-2">
+		<div class="container">
+			<a href="index.html" class="navbar-brand"><img src="img/rhino4.png" alt="rhino" style="width: 150px; height: 100px"></a>
+			<!-- hamburger menu -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+				<i class="fas fa-bars fa-2x navicon-color"></i>
+			</button>
+
+			<div id="navbar-collapse" class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link active mr-2">HOME</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link mr-2">ABOUT US</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link mr-2">SERVICES</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link mr-2">CONTACT US</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link ml-5">LOGIN</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">REGISTER</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+    </nav>
+    
+    <body>
+        <section id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="heading text-left text-white mb-5">We are living in this planet as though we had another to go to.</h1>
+                        <a href="#" class="btn btn-orange mr-7">Get Started</a>   
+                        <a href="#" class="btn btn-transparent">Know more</a>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="wildlife"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="icons">
+            <div class="container">
+                <div class="row">
+                    <span class="fa-stack fa-2x mr-4">
+                            <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                            <i class="fab fa-facebook-f fa-stack-1x icon"></i>
+                    </span>
+                    <span class="fa-stack fa-2x mr-4">
+                            <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                            <i class="fab fa-twitter fa-stack-1x icon"></i>
+                    </span>
+                    <span class="fa-stack fa-2x mr-4">
+                            <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                            <i class="fab fa-instagram fa-stack-1x icon"></i>
+                    </span>
+                    <span class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                            <i class="fab fa-snapchat-ghost fa-stack-1x icon"></i>
+                    </span>
+                </div>
+            </div>
+        </section>
+    </body>
+
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<!-- insert ckeditor.js here -->
+<!-- 	<script type="text/javascript">
+	    CKEDITOR.replace("editor1");
+	</script> -->
+	<script type="text/javascript">
+		$('#year').text(new Date().getFullYear());
+	</script>
+
+
+</html>
+
+<!-- ".d-none .d-lg-block" ensures ddisplay of div contents only on lg screens -->
+<!-- "display-4" is a means of increasing the size of a header's text/text so it stands out.-->
+<!-- "d-flex" automatically aligns text horizontally-->
+<!-- "align-self-star" align content to the beginning-->
+<!-- ".lead" makes text prominent-->
+<!-- ".order-1"places div with that class first no matter where it is placed in a docment-->
+<!-- ".order-2"places div with that class after .order-1 no matter where it is placed in a docment-->
+<!--data-spy="scroll" to implement the scroll function place this within the opening body tag-->
